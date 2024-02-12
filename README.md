@@ -54,7 +54,10 @@ the amount of cpu utilisation of the service.
 ## Tracing our Flask App
 *TODO:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here. Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
 
+**script**
 
+![jeager](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/codepng.png "jeager")
+![jeager](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/code3.png "jeager")
 
 ![jeager](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/jeager.png "jeager")
 
