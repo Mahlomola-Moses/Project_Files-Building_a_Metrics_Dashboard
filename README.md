@@ -27,3 +27,22 @@ Another thing we care about is how quickly our service responds to requests. For
 
 *Latency (SLI):*
 To make sure our service is responding fast enough, we measure its Latency. This is basically how long it takes for our service to reply to requests. If it's taking too long – more than 1000 milliseconds – then we know we're not meeting our response time goal. So, keeping an eye on latency helps us see if we're hitting our target speed.
+
+
+## Creating SLI metrics.
+
+1. For Latency SLO; The metric to measure the SLI will be the time a request takes to complete, which could be done by 
+tracing the time each request takes to complete and computing the average.
+
+2. For uptime SLO; The metric to measure the SLI will be the number of error messages we are seeing in the period of time
+i.e. the error rate, this value indicates if we reached the SLO.
+
+3. For saturation SLO; The metric to measure the SLI will be the amount of memory consumed by the service, or
+the amount of cpu utilisation of the service.
+
+4. For Network Capacity SLO; The metric to measure the SLI will be the average bandwidth of the network.
+
+5. For traffic SLO; The metric to measure the SLI will be the number of requests processed successfully in a specific period of time.
+
+## Create a Dashboard to measure our SLIs
+### Uptime
