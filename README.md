@@ -45,4 +45,6 @@ the amount of cpu utilisation of the service.
 5. For traffic SLO; The metric to measure the SLI will be the number of requests processed successfully in a specific period of time.
 
 ## Create a Dashboard to measure our SLIs
-### Uptime
+
+*DONE:* Create a dashboard to measure the uptime of the frontend and backend services We will also want to measure 40x and 50x errors. Create a dashboard that show these values over a 24 hour period and take a screenshot.
+![Uptime, 40x, and 50x Errors of Frontend and Backend Services Image](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/dashboard.png "Uptime, 40x, and 50x Errors of FE and BE Services")
