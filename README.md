@@ -56,8 +56,8 @@ the amount of cpu utilisation of the service.
 
 **script**
 
-![jeager](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/codepng.png "jeager")
-![jeager](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/code3.png "jeager")
+![script](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/codepng.png "script")
+![script](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/code3.png "script")
 
 ![jeager](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/jeager.png "jeager")
 
@@ -102,4 +102,7 @@ Description: class app.InvalidHandle
 - 500 errors - 500 errors are more severe
 - 400 errors - 404 errors are less severe but also need urgent attention.
 - What percentage of overall requests result in 200 as opposed to 400 or 500 errors
+
+![slis](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/last.png "slis")
+![slis](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/last2png.png "slis")
 
