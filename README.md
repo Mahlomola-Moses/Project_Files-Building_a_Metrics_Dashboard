@@ -58,3 +58,5 @@ the amount of cpu utilisation of the service.
 ## Jaeger in Dashboards
 *DONE:* Now that the trace is running, let's add the metric to our current Grafana dashboard. Once this is completed, provide a screenshot of it here.
 
+![jeager,grafana](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/jg.png "jeager_grafana")
+
