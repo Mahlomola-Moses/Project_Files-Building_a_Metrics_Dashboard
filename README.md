@@ -60,3 +60,23 @@ the amount of cpu utilisation of the service.
 
 ![jeager,grafana](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/jg.png "jeager_grafana")
 
+## Report Error
+*DONE:* Using the template below, write a trouble ticket for the developers, to explain the errors that you are seeing (400, 500, latency) and to let them know the file that is causing the issue.
+
+TROUBLE TICKET
+
+Name: Http Response 500 on backend endpoint /errortrace
+
+Date: February 12 2024, 23:50:20.007
+
+Subject: Http Error Response 500 on backend endpoint /errortrace, Invalid Handle
+
+Affected Area:  File "/app/app.py", line 123, in errortrace
+    raise InvalidHandle('Internal Error', status_code=500)
+
+Severity: High
+
+Description: class app.InvalidHandle 
+
+![Error shown in jaeger trace Image](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/report.png "Error shown in jaeger trace")
+
