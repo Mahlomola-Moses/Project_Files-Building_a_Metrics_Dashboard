@@ -13,3 +13,17 @@
 ![Grafana Dashboard Prometheus Datasource Image](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/datas.png "Grafana Dashboard Datasource")
 
 ## Describe SLO/SLI
+
+Service level objectives (SLO):
+
+*Monthly Uptime (SLO):*
+Imagine you have a goal for your service to be up and running almost all the time, like 99.999% of the month. This means that even if it's down for just a tiny bit, it could affect your goal. So, this is what we call our Service Level Objective (SLO) – a target we aim for to keep our service running smoothly.
+
+*Error Rates (SLI):*
+Now, to check if we're meeting our goal, we need to look at how often our service has issues. We do this by measuring something called Error Rates – basically, how many times our service messes up compared to how many times it's supposed to work perfectly. This helps us see if we're hitting our uptime target.
+
+*Request Response Time (SLO):*
+Another thing we care about is how quickly our service responds to requests. For example, if someone asks our service for something, we want it to respond fast – like within 1000 milliseconds. This is our Service Level Objective (SLO) for request response time – the speed we want our service to reply.
+
+*Latency (SLI):*
+To make sure our service is responding fast enough, we measure its Latency. This is basically how long it takes for our service to reply to requests. If it's taking too long – more than 1000 milliseconds – then we know we're not meeting our response time goal. So, keeping an eye on latency helps us see if we're hitting our target speed.
