@@ -50,8 +50,11 @@ the amount of cpu utilisation of the service.
 
 ![40x, and 50x Errors of FE and BE](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/dashboard.png "Uptime, 40x, and 50x Errors of FE and BE Services")
 
+
 ## Tracing our Flask App
-*DONE:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here.
+*TODO:*  We will create a Jaeger span to measure the processes on the backend. Once you fill in the span, provide a screenshot of it here. Also provide a (screenshot) sample Python file containing a trace and span code used to perform Jaeger traces on the backend service.
+
+
 
 ![jeager](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/jeager.png "jeager")
 
