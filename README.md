@@ -80,3 +80,20 @@ Description: class app.InvalidHandle
 
 ![Error shown in jaeger trace Image](https://github.com/Mahlomola-Moses/Project_Files-Building_a_Metrics_Dashboard/blob/main/answer-img/report.png "Error shown in jaeger trace")
 
+## Creating SLIs and SLOs
+*TODO:* We want to create an SLO guaranteeing that our application has a 99.95% uptime per month. Name four SLIs that you would use to measure the success of this SLO.
+
+**Saturation**
+- percentage CPU usage allocated per service as configured in yaml for example
+- percentage CPU usage available on host
+- Total number of requests received over time. Are there spikes in usage?
+
+**Latency**
+- request time for successful req
+- request time for failed req
+
+**Errors** : 
+- 500 errors - 500 errors are more severe
+- 400 errors - 404 errors are less severe but also need urgent attention.
+- What percentage of overall requests result in 200 as opposed to 400 or 500 errors
+
