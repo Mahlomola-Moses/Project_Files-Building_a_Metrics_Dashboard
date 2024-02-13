@@ -89,6 +89,10 @@ Description: class app.InvalidHandle
 ## Creating SLIs and SLOs
 *TODO:* We want to create an SLO guaranteeing that our application has a 99.95% uptime per month. Name four SLIs that you would use to measure the success of this SLO.
 
+**Traffic**
+- Amount of stress on a system from demand (such as the number of HTTP requests/second).
+- Calculates the average amount of data transferred over the network per unit of time.
+  
 **Saturation**
 - percentage CPU usage allocated per service as configured in yaml for example
 - percentage CPU usage available on host
